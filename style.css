@@ -1,0 +1,778 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+@media only screen and (max-width: 650px){
+   /* index*/
+    body{
+        background-color: rgba(204, 176, 150, 0.959);
+    }
+    .link-enlaces{
+        display: none;
+    }
+    header{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+
+        background-color: rgb(219, 123, 123);
+        padding: 20px; 
+        h1{
+            display: none;
+        }
+        img{
+            width: 100px;
+        
+        }
+        ul{
+            list-style: none;
+        }
+        ul a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-family: "Briem Hand", cursive;
+        }    
+        ul a:hover{
+            color: rgb(226, 51, 109);
+        }
+    }
+   .information{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+    .information section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        h2{
+            font-family:  "Briem Hand", cursive ;
+            margin: 20px 0;
+            text-decoration: underline;
+        }
+        p{
+            width: 75%;
+            padding: 20px 5px;
+            border-radius: 0 0 10px 10px;
+            background-color: rgb(241, 219, 198);
+            font-family:  "Briem Hand", cursive ;
+            font-size: 16px;
+        }
+        img{
+            border-radius: 10px 10px 0 0 ;
+        }
+        ul{
+            width: 75%;
+            padding: 30px 5px;
+            border-radius: 0 0 10px 10px;
+            background-color: rgb(241, 219, 198);
+            font-family:  "Briem Hand", cursive ;
+            list-style: none;
+            text-align: center;
+            font-size: 16px;
+        }
+
+    }
+    .dire-att-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        margin-top: 30px;
+            h3{
+            font-weight: bolder;
+            text-decoration: underline;
+            font-family:  "Briem Hand", cursive ;
+            font-size: 30px;
+            margin-bottom: 20px;
+
+            }
+        }
+    .map{
+        width: 50%;
+
+    }
+    .info-Map{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-color: rgb(212, 150, 74);
+        font-family:  "Briem Hand", cursive ; ;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        h2{
+            margin-top: 20px;
+            text-decoration: underline;
+        }
+        
+    }
+    footer a:hover{
+        color: rgb(233, 86, 135);
+    }
+    .redes{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .copyr{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    main h2{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        font-size: 30px;
+        text-decoration: underline;
+        font-family: "Briem Hand", cursive;
+    }
+/* CONTACTO*/
+    .complete{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Briem Hand", cursive;
+    }
+    .complete form{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .comentarios{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        input{
+            border-radius: 10px;
+            margin-top: 20px;
+            background-color: rgb(216, 153, 174);
+            border: solid 2px brown;
+            color: brown;
+            margin-bottom: 30px;
+        }
+    }
+    .comentarios input:hover{
+        background-color: palevioletred;
+        color: white;
+    }
+    .reserva-titulo{
+        display: flex;
+        justify-content: center;
+        font-family:"Briem Hand", cursive ;
+        font-size: 30px;
+    }
+    .Reserva-canal{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 30px;
+        font-family:"Briem Hand", cursive ;
+        text-decoration: underline;
+        img{
+            width: 60px;
+        }
+    }
+    /* EVENTOS*/
+    .evento-tit{
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        color: rgb(236, 57, 117);
+        margin: 30px 0;
+        font-size: 40px;
+        font-family:"Briem Hand", cursive ;
+        text-decoration: underline;
+
+    }
+    .evento-container{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        img{
+            border-radius: 10px;
+            padding: 10px;
+            background-color: palevioletred;
+            border: dotted white;
+        }
+        p{
+            font-size: 16px;
+            font-family:"Briem Hand", cursive ;
+            margin-bottom: 50px;margin-bottom: 60px;
+            font-size: 16px;
+            font-weight: 500;
+            color: brown;
+        }
+        h4{
+            font-family:"Briem Hand", cursive ;
+            font-size: 30px;
+            margin-top: 30px;
+            color: rgb(240, 29, 99);
+            font-weight: 700;
+        }
+        iframe{
+            border: dotted white;
+            padding: 10px;
+            background-color: palevioletred;
+            border-radius: 10px;
+            width: 450px;
+            height: 300px;
+
+        }
+    }
+/*TIENDA*/
+    .d-flex{
+        gap: 20px; 
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        a{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .carousel-inner h2{
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        margin-bottom: 40PX;
+        font-family: "Jacquard 12", system-ui;
+        font-size: 40px;
+        color: brown;
+    }
+    .carousel-inner img{
+        
+        width: 100%;
+        height: 250px;
+    
+    
+    }
+    /* CARTA*/
+    .carta-titulo{
+        font-size: 40px;
+    }
+    .ingreso-menu{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 30px;
+        gap: 20px;
+        img{
+            border-radius: 50px;
+        
+        }
+        p{
+            font-family: "Cedarville Cursive", cursive;
+            font-size: 20px;
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+    }
+    .titulos-menues{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        font-family: "Cedarville Cursive", cursive;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .Menus {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img{
+            margin-left: 25%;
+            border-radius: 20px;
+            width: 50%;
+        
+        }
+        p{
+            justify-content: center;
+            text-align: center;
+            font-size: 25px;
+            font-family: "Cedarville Cursive", cursive;
+            font-weight: bolder;
+            margin-top: 30px;
+        }
+        ul{
+            list-style: none;
+            font-size: 18px;
+            font-family: "Briem Hand", cursive ;
+            justify-content: center;
+            margin-top: 20px;
+            align-items: center;
+            text-align: center;
+        }
+    } 
+
+    .carta-completa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+        h4{
+            font-family:"Briem Hand", cursive;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 16px;
+            font-family:"Briem Hand", cursive ;
+        }
+    }
+    .oso{
+    display: flex ;
+    justify-content: center;
+    img{
+        border-radius: 10px;
+        margin-bottom: 40px;
+        }
+    }
+
+}
+@media only screen and (min-width: 650px){
+/* index*/
+    .collapse{
+    display: none;
+        }
+    .navbar{
+    display: none;
+    }
+    body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(204, 176, 150, 0.959);
+    }
+    header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(219, 123, 123);
+    gap: 30px;
+    padding: 20px;
+  h1{
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(231, 14, 61, 0.842);
+  }
+  
+    }
+    .logo{
+    width: 100px;
+    }    
+
+    .link-enlaces{
+    display: flex;
+    gap: 30px;
+    }   
+
+    a{
+    text-decoration: none;
+    color: white;
+    transition: 2s;
+    font-size: 23px;
+    }
+    .link-enlaces a:hover{
+    color: brown;
+    margin-top: 20px;
+    transition: 2s;
+    }
+    h1{
+    color: white;
+    font-family: "Briem Hand", cursive;
+    font-size: 25px;
+    }
+    .info-Map{ 
+        iframe{
+        width: 500px;
+        height: 300px;
+       
+        }
+    }
+    .mainmenu{
+    padding: 30px;
+    background-color: rgb(219, 123, 123);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Briem Hand", cursive;
+    font-size: medium;
+    
+    }
+    .img-container img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+     }
+
+    .information{
+    margin-top: 60px;
+    display:flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: "Briem Hand", cursive;
+    h2{text-decoration: underline; text-align: center;width: 400px; margin-bottom: 30px;color: black; }
+    img {width: 400px; height: 300px;  border-radius: 5px;}
+    p{width: 400px; text-align: justify;background-color: beige; padding: 20px; border-radius: 0 0 10px 10px;}
+    ul { padding: 30px; background-color: beige; list-style: none;border-radius: 0 0 10px 10px;
+    text-align: center;}
+    
+    }
+    .dire-att{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+   
+    }
+    .dire-att-text{
+    width: 20%;
+    font-family: "Briem Hand", cursive;
+    }   
+    .dire-att-text h3{
+    font-size: 25px;
+    }
+    .direccion{
+    margin-bottom: 50px;
+    }
+    .maps{
+    display: flex;
+
+    }
+    footer{
+    background-color: rgb(212, 150, 74);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: "Briem Hand", cursive;
+    margin-bottom: 0;
+    }
+    .redes a{ 
+    color: black;
+    font-weight: 700;
+    font-family: "Briem Hand", cursive;
+    text-decoration: none;
+    }
+    .redes a:hover{
+    color: rgb(202, 27, 27);
+    }
+    .redes{
+    text-align: center;
+    }
+    footer img{
+    width: 100px;
+    }
+
+    .pay-icons img {
+    width: 50px;
+    height: 50px;
+    
+    }
+    .redes h5{
+    text-align: center;
+    margin: 15px;
+    text-decoration: wavy;
+    font-family: "Briem Hand", cursive;
+    }
+    .copyr{
+    text-align: center  ;
+    }
+
+/* contacto*/
+    .contacto-titulo{
+    display: flex;
+    justify-content: center;
+    font-family: "Briem Hand", cursive;
+    font-size: 40px;
+    margin: 30px 0;
+
+    }
+    .contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: "Briem Hand", cursive;
+    font-size: 18px;
+    
+    }
+    textarea{
+    width: 150px;
+    height: 150px;
+    }
+    .complete{
+  
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    }
+    .comentarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: "Briem Hand", cursive;
+    input{
+        border-radius: 10px;
+        margin-top: 20px;
+        background-color: rgb(216, 153, 174);
+        border: solid 2px brown;
+        color: brown;
+        padding: 10px 50px;
+        margin-bottom: 30px
+        }
+    }
+    .comentarios input:hover{
+    background-color: palevioletred;
+    color: white;
+    }
+    .Reserva-canal{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    margin-bottom: 30px;
+    font-family: "Briem Hand", cursive;
+    }
+    .reserva-titulo{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-family: "Briem Hand", cursive;
+
+    }
+    .reserva-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        align-content: center;
+        a{
+            display: flex;
+        justify-content: center;
+        }
+        img{ width: 40%;}
+        
+    }
+
+    /* nuestra carta*/
+    .carta-titulo {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 40px;
+        font-family: "Cedarville Cursive", cursive;
+        margin-bottom: 40px;
+    }
+    .ingreso-menu{
+        display: flex;
+        gap: 100px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        img{
+            border-radius: 50px;
+        }
+    }
+    .ingreso-menu p{
+        text-align: center;
+        font-size: 30px;
+        font-family: "Cedarville Cursive", cursive;
+        border-bottom: solid 2px black;
+    }
+    .ingreso-menu img:hover{
+        border:  3px solid palevioletred;
+    
+    }
+    .Menus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        p{
+            font-size: 30px;
+            font-family: "Briem Hand", cursive;
+        }
+    }
+    .Menus section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        img{
+            border-radius: 10px;
+            width: 40%;
+        }
+    
+    }
+  
+    .Menus ul{
+        font-family: "Briem Hand", cursive;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style: none;
+       
+    }
+    Menus p{
+        margin-bottom: 15px;
+        font-size: 25px;
+        text-align: center;
+        font-family: "Briem Hand", cursive;
+    
+    }
+    
+    .titulos-menues{
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: "Cedarville Cursive", cursive;
+        text-decoration: underline;
+    }
+ 
+    .carta-completa{
+       display:grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 40px;
+        padding: 0 80px;
+        font-size: 15px;
+        font-family:"Briem Hand", cursive;
+    }
+    .carta-completa h4{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .oso {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px ;
+        img{
+            border-radius: 10px;
+            width: 30%;
+        }
+    
+    
+    }
+    
+    /* EVENTOS*/
+    .evento-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        iframe{
+            width: 600PX;
+            height: 400PX;
+            border: dotted white;
+            padding: 10px;
+            background: palevioletred;
+            border-radius: 10px;
+           
+        }    
+       h4{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        color: rgb(240, 29, 99);
+        font-weight: 700;
+       } 
+       p{
+        margin-bottom: 60px;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "Briem Hand", cursive;
+        color: brown;
+        width: 800px;
+       }
+       img{
+        width: 600px;
+        border-radius: 10px;
+        border: dotted white;
+        padding: 10px;
+        background-color: palevioletred;
+       }
+       
+    }
+    .evento-tit{
+        display: flex;
+        justify-content: center;
+        font-family: "Briem Hand", cursive;
+        font-size: 40PX;
+        text-decoration: underline;
+        color: rgb(236, 57, 117);
+        margin: 30px 0;
+    }
+    
+    /* TIENDA*/
+    .carousel-inner h2{
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 15px 10px;
+    margin: 0 50px 40px ;
+    font-family: "Jacquard 12", system-ui;
+    font-size: 40px;
+    color: brown;
+    }
+    .carousel-inner img{
+    
+    width: 100%;
+    height: 350px;
+    padding: 20px 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+    }
+
+    .d-flex{
+    gap: 20PX;
+    margin-bottom: 30PX;
+    }
+    .card a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+}
+    
+
