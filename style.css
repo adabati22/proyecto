@@ -240,8 +240,8 @@
             padding: 10px;
             background-color: palevioletred;
             border-radius: 10px;
-            width: 450px;
-            height: 300px;
+            width: 70%;
+            
 
         }
     }
@@ -700,13 +700,12 @@
         align-items: center;
         text-align: center;
         iframe{
-            width: 600PX;
-            height: 400PX;
+            width: 500px;
+            height: 300px;
             border: dotted white;
             padding: 10px;
             background: palevioletred;
             border-radius: 10px;
-           
         }    
        h4{
         margin-top: 20px;
@@ -721,10 +720,11 @@
         font-weight: 500;
         font-family: "Briem Hand", cursive;
         color: brown;
-        width: 800px;
+        width: 500px;
+       
        }
        img{
-        width: 600px;
+        width: 40%;
         border-radius: 10px;
         border: dotted white;
         padding: 10px;
