@@ -374,11 +374,11 @@
     background-color: rgb(219, 123, 123);
     gap: 30px;
     padding: 20px;
-  h1{
-    font-size: 20px;
-    font-style: italic;
-    color: rgba(231, 14, 61, 0.842);
-  }
+    h1{
+        font-size: 20px;
+        font-style: italic;
+        color: rgba(231, 14, 61, 0.842);
+    }
   
     }
     .logo{

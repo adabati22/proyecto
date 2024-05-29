@@ -1,0 +1,32 @@
+main {
+    .carousel-inner h2{
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        padding: 15px 10px;
+        margin: 0 50px 40px ;
+        font-family: "Jacquard 12", system-ui;
+        font-size: 40px;
+        color: brown;
+    }
+    .carousel-inner img{
+        
+        width: 100%;
+        height: 350px;
+        padding: 20px 50px;
+        margin-top: 30px;
+        border-radius: 5px;
+    
+    }
+
+    .d-flex{
+        gap: 20PX;
+        margin-bottom: 30PX;
+    }
+    .card a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

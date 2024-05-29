@@ -1,0 +1,49 @@
+main {
+    .evento-tit{
+        display: flex;
+        justify-content: center;
+        font-family: "Briem Hand", cursive;
+        font-size: 40PX;
+        text-decoration: underline;
+        color: rgb(236, 57, 117);
+        margin: 30px 0;
+    }
+    .evento-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        iframe{
+            border: dotted white;
+            padding: 10px;
+            background: palevioletred;
+            border-radius: 10px;
+        }    
+        h4{
+                font-family:"Briem Hand", cursive;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                font-size: 30px;
+                color: rgb(240, 29, 99);
+                font-weight: 700;
+        } 
+        img{
+                border-radius: 10px;
+                border: dotted white;
+                padding: 10px;
+                background-color: palevioletred;
+        }
+        p{
+                margin-bottom: 60px;
+                font-size: 16px;
+                font-weight: 500;
+                font-family: "Briem Hand", cursive;
+                color: brown;
+                width: 500px;
+        
+        }
+        
+    
+    }
+}

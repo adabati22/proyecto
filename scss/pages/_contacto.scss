@@ -1,0 +1,86 @@
+main{
+    .contacto-titulo{
+        display: flex;
+        justify-content: center;
+        font-family: "Briem Hand", cursive;
+        font-size: 40px;
+        margin: 30px 0;
+
+    }
+    .complete{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+            .contact form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px;
+                font-family: "Briem Hand", cursive;
+                font-size: 18px;
+            }
+    }
+   .comentarios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-family: "Briem Hand", cursive; 
+        textarea{
+            width: 150px;
+            height: 150px;
+        }
+        input{
+            border-radius: 10px;
+            margin-top: 20px;
+            background-color: rgb(216, 153, 174);
+            border: solid 2px brown;
+            color: brown;
+            padding: 10px 50px;
+            margin-bottom: 30px;
+            
+            }
+            input:hover{
+                background-color: palevioletred;
+                color: white;
+        }
+    }
+    
+    .Reserva-canal{
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+        align-items: center;
+        margin-bottom: 30px;
+        font-family: "Briem Hand", cursive;
+        text-decoration: underline;
+    }
+    div {
+        .reserva-titulo{
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            font-family: "Briem Hand", cursive;
+
+        }
+        .reserva-item{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            a{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                align-content: center;
+            }
+            img{ 
+                width: 100%;
+            }
+            
+        }
+        
+    }
+}

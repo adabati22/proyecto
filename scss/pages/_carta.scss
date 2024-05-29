@@ -1,0 +1,106 @@
+main{
+    .carta-titulo {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 40px;
+        font-family: "Cedarville Cursive", cursive;
+        margin-bottom: 40px;
+    }
+    .ingreso-menu{
+        display: flex;
+        gap: 50px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        img{
+            border-radius: 50px;
+        }
+        p{
+            text-align: center;
+            font-size: 30px;
+            font-family: "Cedarville Cursive", cursive;
+            border-bottom: solid 2px black;
+        }
+        .ingreso-menu img:hover{
+            border:  3px solid palevioletred;
+    
+        }
+    }
+    
+    .Menus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        p{
+            justify-content: center;
+            text-align: center;
+            font-size: 25px;
+            font-family: "Cedarville Cursive", cursive;
+            font-weight: bolder;
+            margin-top: 30px;
+        }
+        ul{
+                font-family: "Briem Hand", cursive;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                list-style: none;
+                justify-content: center;
+                margin-top: 20px;
+                align-items: center;
+                font-size: 18px;
+       
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-wrap: wrap;
+            img{
+                border-radius: 10px;
+            }
+        }
+    
+    
+    }
+    
+    .titulos-menues{
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: "Cedarville Cursive", cursive;
+        text-decoration: underline;
+    }
+ 
+    .carta-completa{
+       
+        h4{
+            margin-bottom: 10px;
+            font-family:"Briem Hand", cursive;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 16px;
+            font-family:"Briem Hand", cursive ;
+        }
+
+    }
+    .oso {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px ;
+        img{
+            border-radius: 10px;
+        }
+    
+    
+    }
+}

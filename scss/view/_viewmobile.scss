@@ -1,0 +1,165 @@
+
+@media only screen and (max-width: 650px){
+//HEADER
+    @import "../layout/header";
+    header{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        h1{
+            display: none;
+        }
+        div {
+            ul {
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 30px;
+                    font-family: "Briem Hand", cursive;
+                    &:hover{
+                        color: rgb(226, 51, 109);
+                                }
+                    }  
+                } 
+       }
+        
+        .link-enlaces{
+            display: none;
+        }
+    }
+
+    
+//FOOTER
+@import "../layout/footer";
+footer{  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+    div {
+        h2{
+            margin-top: 20px;
+        }
+
+    }
+    .redes{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+   .copyr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 50%;
+            height: 100px;
+        }
+    }
+}
+
+//INDEX
+
+@import "../pages/index";
+main{
+    .information{
+        flex-direction: column;
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            align-content: center;
+            h2{
+                margin: 20px 0;
+            }
+            ul{
+                width: 75%;
+                padding: 30px 5px;
+            }
+            p{
+                width: 75%;
+            }
+            
+        }
+
+    }
+    .dire-att{
+        flex-wrap: wrap;
+    }
+    .info-Map{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px; 
+       
+        .map{
+            width: 300px;
+        }
+    }
+}
+
+//Contacto 
+
+@import "../pages/contacto";
+
+main{
+    .complete{
+       flex-wrap: wrap 
+    }
+    .Reserva-canal{
+
+      flex-wrap: wrap;
+    }
+}
+//EVENTOS
+
+@import "../pages/evento";
+
+.evento-container {
+        iframe{
+            width: 70%;
+        }
+    }
+ //TIENDA
+ @import "../pages/tienda";
+ 
+ main{
+        .carousel-inner img{
+            height: 250px;
+        }
+        .d-flex{
+        
+            flex-wrap: wrap;
+        }
+    }
+//Carta
+@import "../pages/carta";
+
+main{
+        .Menus {
+            display: flex;
+            flex-direction: column;
+            section{
+                display: flex;
+                flex-direction: column;
+               
+                img{
+                    width: 50%;
+                }
+            }
+           
+        }
+        .carta-completa{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        } 
+
+    }
+
+}
+
+

@@ -1,0 +1,35 @@
+footer{
+    background-color: rgb(212, 150, 74);
+    display: flex;
+    font-family: "Briem Hand", cursive;
+   
+    }
+    .redes {
+        text-align: center;
+        h2{
+            text-decoration: underline; 
+            
+        }
+        a{ 
+            color: black;
+            font-weight: 700;
+            font-family: "Briem Hand", cursive;
+            text-decoration: none;
+            &:hover{
+                color: rgb(233, 86, 135);
+            }
+            
+        }
+    }
+       
+    
+    .redes {
+        h5{
+            text-align: center;
+            margin: 15px;
+            text-decoration: wavy;
+            font-family: "Briem Hand", cursive;
+        }
+    }
+    
+    
