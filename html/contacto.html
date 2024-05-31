@@ -9,7 +9,7 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap" rel="stylesheet">
      
-     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="../css/style.css">
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Neko-Punch Manga cafe / Contacto </title>
@@ -18,26 +18,26 @@
 <body>
     <header>
         <div class="logo-link"> 
-            <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+            <a href="../index.html"><img class="logo" src="../images/logo.png" alt="logo"></a>
         </div>  
             <h1>Neko-Punch Manga Café</h1>
-            <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-                <div>
-                    <ul>
+        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+            <div>
+                <ul>
                     <li> <a href="contacto.html"> Contacto </a></li>
                     <li>  <a href="tienda.html"> Tienda </a></li>
                     <li> <a href="nuestracarta.html">Nuestro Menú</a></li>
                     <li> <a href="eventos.html">Eventos</a></li>
-                    </ul>
-                </div>
+                </ul>
             </div>
-             <nav class="navbar">
+        </div>
+        <nav class="navbar">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-            </nav>
+        </nav>
         <div class="link-enlaces">
             <a href="contacto.html"> Contacto </a>
             <a href="tienda.html"> Tienda </a>
@@ -46,15 +46,15 @@
         </div>
     </header>
     <main>
-            <h2 class="contacto-titulo"> Contactános </h2>
-            <section class="complete">
+        <h2 class="contacto-titulo"> Contactános </h2>
+        <section class="complete">
             <div class="contact">
                 <form action="form.php" method="post" class="contacto">
-                    <label>Nombre y Apellido</label>
-                    <input type="text" name="nombre" id="Nombre">
-                    <label> Asunto </label> 
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" name="nombre" id="nombre">
+                    <label for="asunto"> Asunto </label> 
                     <input type="text" name="asunto" id="asunto"> 
-                    <label> Email </label>
+                    <label for="email"> Email </label>
                     <input type="text" name="email" id="email"> 
                 </form>
             </div> 
@@ -64,20 +64,20 @@
                 <input type="submit">
              </div> 
         </section>
-              <div>
-        <h3 class="reserva-titulo"> Reservas </h3>
-        <section class="Reserva-canal">
-            <div class="reserva-item">
-                <p> WhatsApp </p>
-            <a href="https://web.whatsapp.com/" target="_blank"><img src="./images/icons8-whatsapp-150.png" alt="icono whatsapp"></a>
-            </div>
-            <div class="reserva-item">
-                <p> Instagram </p>
-            <a href="http://instagram.com"target="_blank"><img src="images/icons8-instagram-150.png" alt="icono instagram"></a>
-            </div>
-        </section>
-    </div>
-</main> 
+        <div>
+            <h3 class="reserva-titulo"> Reservas </h3>
+            <section class="Reserva-canal">
+                <div class="reserva-item">
+                    <p> WhatsApp </p>
+                    <a href="https://web.whatsapp.com/" target="_blank"><img src="../images/icons8-whatsapp-150.png" alt="icono whatsapp"></a>
+                </div>
+                <div class="reserva-item">
+                    <p> Instagram </p>
+                    <a href="http://instagram.com"target="_blank"><img src="../images/icons8-instagram-150.png" alt="icono instagram"></a>
+                </div>
+            </section>
+        </div>
+    </main> 
     <footer>
         <div class="redes">
             <h2> Redes Sociales </h2>
@@ -86,21 +86,19 @@
             <a href="http://twitter.com" target="_blank"> Twitter </a>
         </div>
         <div class="redes">
-            <h5>Medios de pago</h5>
+            <h3>Medios de pago</h3>
             <div class="pay-icons">
-            <img src="images/icons8-efectivo-100.png" alt="efectivo">
-            <img src="images/icons8-master-card-48.png" alt="mastercard">
-            <img src="images/icons8-mercado-pago-48.png" alt="mercadopago">
-            <img src="images/icons8-visa-50.png" alt="visa">
-           </div>
-        </div>
-        <div class="copyr">
-            <img src="images/logo.png" alt="logo" width="50px" >
-            <p> Copyright Adara Batistón </p>
-        </div>
-        
+                <img src="../images/icons8-efectivo-100.png" alt="efectivo">
+                <img src="../images/icons8-master-card-48.png" alt="mastercard">
+                <img src="../images/icons8-mercado-pago-48.png" alt="mercadopago">
+                <img src="../images/icons8-visa-50.png" alt="visa">
+            </div>
+            </div>
+            <div class="copyr">
+                <img src="../images/logo.png" alt="logo" >
+                <p> Copyright Adara Batistón </p>
+            </div>       
     </footer>
-
     
 <!--javascrip-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

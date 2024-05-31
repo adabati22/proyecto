@@ -17,7 +17,7 @@
                     font-size: 30px;
                     font-family: "Briem Hand", cursive;
                     &:hover{
-                        color: rgb(226, 150, 51);
+                        color: rgb(226, 51, 109);
                                 }
                     }  
                 } 
@@ -63,6 +63,11 @@ footer{
 
 @import "../pages/index";
 main{
+    .img-container{
+        img{
+            width: 100%;
+        }
+    }
     .information{
         flex-direction: column;
         section{
@@ -80,6 +85,9 @@ main{
                 padding: 30px 5px;
             }
             p{
+                width: 75%;
+            }
+            img{
                 width: 75%;
             }
             
@@ -145,9 +153,7 @@ main{
                 display: flex;
                 flex-direction: column;
                
-                img{
-                    width: 50%;
-                }
+                
             }
            
         }

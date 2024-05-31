@@ -29,7 +29,7 @@ body {
   header .link-enlaces a {
     text-decoration: none;
     color: white;
-    transition: 2s;
+    transition: 1s;
     font-size: 25px;
     font-family: "Briem Hand", cursive;
   }
@@ -71,7 +71,7 @@ body {
     text-decoration: underline;
   }
   .redes a {
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: 700;
     font-family: "Briem Hand", cursive;
     text-decoration: none;
@@ -79,7 +79,7 @@ body {
   .redes a:hover {
     color: rgb(233, 86, 135);
   }
-  .redes h5 {
+  .redes h3 {
     text-align: center;
     margin: 15px;
     text-decoration: wavy;
@@ -165,6 +165,9 @@ body {
     font-size: 30px;
     margin-bottom: 20px;
   }
+  main .img-container img {
+    width: 100%;
+  }
   main .information {
     flex-direction: column;
   }
@@ -184,6 +187,9 @@ body {
     padding: 30px 5px;
   }
   main .information section p {
+    width: 75%;
+  }
+  main .information section img {
     width: 75%;
   }
   main .dire-att {
@@ -294,14 +300,16 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
   }
   main .evento-container iframe {
     border: dotted white;
     padding: 10px;
     background: palevioletred;
     border-radius: 10px;
+    width: 50%;
   }
-  main .evento-container h4 {
+  main .evento-container h3 {
     font-family: "Briem Hand", cursive;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -314,6 +322,7 @@ body {
     border: dotted white;
     padding: 10px;
     background-color: palevioletred;
+    width: 50%;
   }
   main .evento-container p {
     margin-bottom: 60px;
@@ -321,7 +330,7 @@ body {
     font-weight: 500;
     font-family: "Briem Hand", cursive;
     color: brown;
-    width: 500px;
+    align-items: center;
   }
   .evento-container iframe {
     width: 70%;
@@ -343,14 +352,27 @@ body {
     margin-top: 30px;
     border-radius: 5px;
   }
-  main .d-flex {
-    gap: 20PX;
-    margin-bottom: 30PX;
-  }
-  main .card a {
+  main .mangas-otros {
     display: flex;
+    gap: 20px;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  main .mangas-otros .card {
+    width: 12rem;
+  }
+  main .mangas-otros .card img {
+    width: 100%;
+    height: 250px;
+  }
+  main .mangas-otros .card div h3 {
+    font-size: 15px;
+  }
+  main .mangas-otros .card div p {
+    color: blue;
+    font-weight: 500;
   }
   main .carousel-inner img {
     height: 250px;
@@ -375,6 +397,11 @@ body {
   }
   main .ingreso-menu img {
     border-radius: 50px;
+    width: 150px;
+    height: 150px;
+  }
+  main .ingreso-menu img:hover {
+    border: 3px solid palevioletred;
   }
   main .ingreso-menu p {
     text-align: center;
@@ -382,44 +409,42 @@ body {
     font-family: "Cedarville Cursive", cursive;
     border-bottom: solid 2px black;
   }
-  main .ingreso-menu .ingreso-menu img:hover {
-    border: 3px solid palevioletred;
-  }
-  main .Menus {
+  main .menus-1 {
     display: flex;
     justify-content: center;
+    gap: 100px;
     align-items: center;
-    align-content: center;
+    flex-wrap: wrap;
   }
-  main .Menus p {
+  main .menus-1 p {
     justify-content: center;
     text-align: center;
     font-size: 25px;
     font-family: "Cedarville Cursive", cursive;
     font-weight: bolder;
-    margin-top: 30px;
   }
-  main .Menus ul {
+  main .menus-1 ul {
     font-family: "Briem Hand", cursive;
     display: flex;
     flex-direction: column;
     text-align: center;
     list-style: none;
     justify-content: center;
-    margin-top: 20px;
     align-items: center;
-    font-size: 18px;
+    font-size: 16px;
+    margin-top: 10px;
   }
-  main .Menus section {
+  main .menus-1 section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
   }
-  main .Menus section img {
+  main .menus-1 section img {
     border-radius: 10px;
+    width: 350px;
   }
   main .titulos-menues {
     text-align: center;
@@ -446,7 +471,8 @@ body {
     margin-bottom: 20px;
   }
   main .oso img {
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 50%;
   }
   main .Menus {
     display: flex;
@@ -455,9 +481,6 @@ body {
   main .Menus section {
     display: flex;
     flex-direction: column;
-  }
-  main .Menus section img {
-    width: 50%;
   }
   main .carta-completa {
     display: flex;
@@ -476,7 +499,7 @@ body {
     gap: 30px;
   }
   header .link-enlaces a:hover {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   header .collapse {
     display: none;
@@ -502,7 +525,7 @@ body {
   header .link-enlaces a {
     text-decoration: none;
     color: white;
-    transition: 2s;
+    transition: 1s;
     font-size: 25px;
     font-family: "Briem Hand", cursive;
   }
@@ -522,7 +545,7 @@ body {
     text-decoration: underline;
   }
   .redes a {
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: 700;
     font-family: "Briem Hand", cursive;
     text-decoration: none;
@@ -530,7 +553,7 @@ body {
   .redes a:hover {
     color: rgb(233, 86, 135);
   }
-  .redes h5 {
+  .redes h3 {
     text-align: center;
     margin: 15px;
     text-decoration: wavy;
@@ -730,14 +753,16 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
   }
   main .evento-container iframe {
     border: dotted white;
     padding: 10px;
     background: palevioletred;
     border-radius: 10px;
+    width: 50%;
   }
-  main .evento-container h4 {
+  main .evento-container h3 {
     font-family: "Briem Hand", cursive;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -750,6 +775,7 @@ body {
     border: dotted white;
     padding: 10px;
     background-color: palevioletred;
+    width: 50%;
   }
   main .evento-container p {
     margin-bottom: 60px;
@@ -757,7 +783,7 @@ body {
     font-weight: 500;
     font-family: "Briem Hand", cursive;
     color: brown;
-    width: 500px;
+    align-items: center;
   }
   .evento-container iframe {
     width: 500px;
@@ -786,14 +812,27 @@ body {
     margin-top: 30px;
     border-radius: 5px;
   }
-  main .d-flex {
-    gap: 20PX;
-    margin-bottom: 30PX;
-  }
-  main .card a {
+  main .mangas-otros {
     display: flex;
+    gap: 20px;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  main .mangas-otros .card {
+    width: 12rem;
+  }
+  main .mangas-otros .card img {
+    width: 100%;
+    height: 250px;
+  }
+  main .mangas-otros .card div h3 {
+    font-size: 15px;
+  }
+  main .mangas-otros .card div p {
+    color: blue;
+    font-weight: 500;
   }
   main .carousel-inner h2 {
     padding: 15px 10px;
@@ -822,6 +861,11 @@ body {
   }
   main .ingreso-menu img {
     border-radius: 50px;
+    width: 150px;
+    height: 150px;
+  }
+  main .ingreso-menu img:hover {
+    border: 3px solid palevioletred;
   }
   main .ingreso-menu p {
     text-align: center;
@@ -829,44 +873,42 @@ body {
     font-family: "Cedarville Cursive", cursive;
     border-bottom: solid 2px black;
   }
-  main .ingreso-menu .ingreso-menu img:hover {
-    border: 3px solid palevioletred;
-  }
-  main .Menus {
+  main .menus-1 {
     display: flex;
     justify-content: center;
+    gap: 100px;
     align-items: center;
-    align-content: center;
+    flex-wrap: wrap;
   }
-  main .Menus p {
+  main .menus-1 p {
     justify-content: center;
     text-align: center;
     font-size: 25px;
     font-family: "Cedarville Cursive", cursive;
     font-weight: bolder;
-    margin-top: 30px;
   }
-  main .Menus ul {
+  main .menus-1 ul {
     font-family: "Briem Hand", cursive;
     display: flex;
     flex-direction: column;
     text-align: center;
     list-style: none;
     justify-content: center;
-    margin-top: 20px;
     align-items: center;
-    font-size: 18px;
+    font-size: 16px;
+    margin-top: 10px;
   }
-  main .Menus section {
+  main .menus-1 section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
   }
-  main .Menus section img {
+  main .menus-1 section img {
     border-radius: 10px;
+    width: 350px;
   }
   main .titulos-menues {
     text-align: center;
@@ -893,7 +935,8 @@ body {
     margin-bottom: 20px;
   }
   main .oso img {
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 50%;
   }
   main .ingreso-menu {
     margin-bottom: 60px;

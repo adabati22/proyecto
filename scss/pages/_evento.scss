@@ -14,13 +14,15 @@ main {
         justify-content: center;
         align-items: center;
         text-align: center;
+        flex-wrap: wrap;
         iframe{
             border: dotted white;
             padding: 10px;
             background: palevioletred;
             border-radius: 10px;
+            width: 50%;
         }    
-        h4{
+        h3{
                 font-family:"Briem Hand", cursive;
                 margin-top: 20px;
                 margin-bottom: 30px;
@@ -33,6 +35,7 @@ main {
                 border: dotted white;
                 padding: 10px;
                 background-color: palevioletred;
+                width: 50%;
         }
         p{
                 margin-bottom: 60px;
@@ -40,7 +43,10 @@ main {
                 font-weight: 500;
                 font-family: "Briem Hand", cursive;
                 color: brown;
-                width: 500px;
+               
+                align-items: center;
+
+                
         
         }
         
