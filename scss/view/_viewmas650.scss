@@ -13,31 +13,25 @@
                 }
             }
         }
-      .collapse{
-        display: none;
-            }
+        .collapse{
+            display: none;
+        }
         .navbar{
-        display: none;
+            display: none;
         }  
     }
     
-    @import "../layout/header";
-    
-
     //FOOTER
 
-    @import "../layout/footer";
     footer{
         justify-content: space-around;
         padding: 20px;
         margin-bottom: 0;
-        
         .pay-icons  {
             img{
                 width: 50px;
                 height: 50px;
             }
-        
         
         }
         .copyr{
@@ -48,9 +42,9 @@
         }
     
     }
+
     //INDEX
-    
-    @import "../pages/index";
+   
     main{
         .img-container img{
             width: 100%;
@@ -59,21 +53,32 @@
         }
         .information{
             margin-top: 60px;
-            justify-content: center;
-            gap: 150px;
+            justify-content: space-around;
             align-content: center;
-            h2{
-                width: 400px;
+            align-content: center;
+            section{
+                flex-direction: column;
+                h2{
+                    width: 400px;
+                }
+                img {
+                    width: 450px; 
+                    height: 350px; 
+                }
+                p{
+                    width: 450px; 
+                    transform: translateY(-20px);
+                } 
             }
-            img {
-                width: 400px; 
-                height: 300px; 
-            }
-            p{
-                width: 400px; 
+            .section-3 {
+                transform: translateY(5px);
+                ul{
+                    transform: translateY(-20px);
+                }  
             }
             
         }
+    
         .dire-att{
             margin-top: 60px;
             gap: 70px;
@@ -81,41 +86,49 @@
             flex-wrap: wrap;
             div{
                 iframe{
-                    width: 300px;
-                    height: 200px;
+                    width: 500px;
+                    height: 400px;
                 }
             }  
         }
 
-    }
+  }
     
     //CONTACTO
-    
-    @import "../pages/contacto";
-    
+main{
+    .reserva-item{
+        p{
+            margin-top: 20px;
+        }
+    }
+}
     //eventos
     
-    @import "../pages/evento";
+  
     .evento-container {
         iframe{
-            width: 500px;
+            width: 400px;
             height: 300px;
         }
         img{
-            width: 40%;
+            width: 50%;
+            height: 400px;
         }
-        p{
-            width: 500px;
+        div{
+           p{
+                width: 600px;
+            } 
         }
+        
     
     }
     //TIENDA
-    @import "../pages/tienda";
+    
     main {
         .carousel-inner {
             h2{
-            padding: 15px 10px;
-            margin: 0 50px 40px ;
+                padding: 15px 10px;
+                margin: 0 50px 40px ;
             }
 
             img{
@@ -127,19 +140,17 @@
         }
     }
     //Carta
-    @import "../pages/carta";
+   
     main{
         .ingreso-menu{
+            gap: 100px;
+            margin-top: 30px;
             margin-bottom: 60px;
+            justify-content: center;
     
         }
-        .Menus section{
-        
-            img{
-     
-                width: 50%;
-            }
-
+        .menus-1{
+            gap: 120px;
         }
         .carta-completa{
             display:grid;
@@ -157,13 +168,10 @@
                 
                 width: 30%;
             }
-        
-        
         }
     }
         
 
 
-
-
 }
+

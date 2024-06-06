@@ -1,7 +1,6 @@
 
 @media only screen and (max-width: 650px){
 //HEADER
-    @import "../layout/header";
     header{
         justify-content: space-between;
         flex-wrap: wrap;
@@ -9,20 +8,23 @@
             display: none;
         }
         div {
-            ul {
-                list-style: none;
-                a{
-                    text-decoration: none;
-                    color: white;
-                    font-size: 30px;
-                    font-family: "Briem Hand", cursive;
-                    &:hover{
-                        color: rgb(226, 51, 109);
-                                }
+            div{
+                ul {
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 30px;
+                        font-family: "Briem Hand", cursive;
+                        &:hover{
+                            color: rgb(226, 51, 109);
+                        }
                     }  
                 } 
-       }
-        
+            }
+            
+        }
+    
         .link-enlaces{
             display: none;
         }
@@ -30,7 +32,7 @@
 
     
 //FOOTER
-@import "../layout/footer";
+
 footer{  
     justify-content: center;
     flex-direction: column;
@@ -60,12 +62,12 @@ footer{
 }
 
 //INDEX
-
-@import "../pages/index";
 main{
     .img-container{
         img{
             width: 100%;
+            object-fit: cover;
+            
         }
     }
     .information{
@@ -80,20 +82,25 @@ main{
             h2{
                 margin: 20px 0;
             }
-            ul{
-                width: 75%;
-                padding: 30px 5px;
-            }
             p{
                 width: 75%;
+                transform: translateY(-20px);
             }
             img{
                 width: 75%;
             }
             
         }
+        .section-3{
+            ul{
+                width: 75%;
+                padding: 30px 5px;
+                transform: translateY(-20px);
+            }
+        }
 
     }
+
     .dire-att{
         flex-wrap: wrap;
     }
@@ -101,17 +108,14 @@ main{
         display: flex;
         justify-content: center;
         margin-bottom: 30px; 
-       
         .map{
-            width: 300px;
+            width: 100%;
         }
     }
 }
 
+
 //Contacto 
-
-@import "../pages/contacto";
-
 main{
     .complete{
        flex-wrap: wrap 
@@ -123,37 +127,35 @@ main{
 }
 //EVENTOS
 
-@import "../pages/evento";
-
-.evento-container {
+main{
+    .evento-container {
         iframe{
-            width: 70%;
+            width: 100%;
         }
     }
+}
+
+
  //TIENDA
- @import "../pages/tienda";
+
  
  main{
-        .carousel-inner img{
-            height: 250px;
+        .carousel-inner {
+            img{
+                height: 250px;
+            }
         }
-        .d-flex{
-        
-            flex-wrap: wrap;
-        }
+       
     }
 //Carta
-@import "../pages/carta";
 
 main{
-        .Menus {
+        .menus-1 {
             display: flex;
             flex-direction: column;
             section{
                 display: flex;
-                flex-direction: column;
-               
-                
+                flex-direction: column; 
             }
            
         }

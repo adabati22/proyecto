@@ -1,9 +1,23 @@
 //BASE
 @import "./BASE/reset";
 
-//media 650px
+// pages 
+@import "./pages/index";
+@import "./pages/contacto";
+@import "./pages/evento";
+@import "./pages/tienda";
+@import "./pages/carta";
 
+//media 650px
 @import "./view/viewmenos650";
 
 //media mayor 650px
 @import "./view/viewmas650";
+
+//layout
+@import "./layout/header";
+@import "./layout/footer";
+
+//componentes
+@import "./components/cards";
+@import "./components/carrousel";

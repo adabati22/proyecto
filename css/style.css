@@ -10,33 +10,347 @@ body {
   background-color: rgba(204, 176, 150, 0.959);
 }
 
+main .information {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  font-family: "Briem Hand", cursive;
+}
+main .information section h2 {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+main .information section img {
+  border-radius: 10px 10px 0 0;
+}
+main .information section p {
+  text-align: justify;
+  background-color: beige;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+main .information section ul {
+  padding: 55px 0;
+  background-color: beige;
+  list-style: none;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Briem Hand", cursive;
+  margin-bottom: 30px;
+}
+main .dire-att {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .dire-att .dire-att-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+main .dire-att .dire-att-text .direccion {
+  margin-bottom: 20px;
+  font-family: "Briem Hand", cursive;
+}
+main .dire-att .dire-att-text .direccion h3 {
+  font-weight: bolder;
+  text-decoration: underline;
+  font-family: "Briem Hand", cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+main .dire-att .dire-att-text .direccion p {
+  color: black;
+}
+
+@keyframes crecimiento {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+main .contacto-titulo {
+  display: flex;
+  justify-content: center;
+  font-family: "Briem Hand", cursive;
+  font-size: 40px;
+  margin: 30px 0;
+}
+main .complete {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+main .complete .contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  transform: translateY(-80px);
+}
+main .complete .contact form label {
+  font-family: "Briem Hand", cursive;
+  font-size: 18px;
+  margin-top: 20px;
+}
+main .complete .comentarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: "Briem Hand", cursive;
+}
+main .complete .comentarios textarea {
+  width: 150px;
+  height: 150px;
+}
+main .complete .comentarios input {
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: rgb(216, 153, 174);
+  border: solid 2px brown;
+  color: brown;
+  padding: 10px 50px;
+  margin-bottom: 30px;
+}
+main .complete .comentarios input:hover {
+  background-color: rgb(233, 86, 135);
+  color: white;
+}
+main div .reserva-titulo {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Briem Hand", cursive;
+}
+main div .Reserva-canal {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+  margin-bottom: 30px;
+  font-family: "Briem Hand", cursive;
+  text-decoration: underline;
+}
+main div .Reserva-canal .reserva-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+main div .Reserva-canal .reserva-item a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+}
+main div .Reserva-canal .reserva-item a img {
+  width: 100%;
+}
+main div .Reserva-canal .reserva-item a img:hover {
+  animation-name: crecimiento;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+main div .Reserva-canal .reserva-item p {
+  color: black;
+  font-size: 20px;
+}
+
+main .evento-tit {
+  display: flex;
+  justify-content: center;
+  font-family: "Briem Hand", cursive;
+  font-size: 40PX;
+  text-decoration: underline;
+  color: rgb(236, 57, 117);
+  margin: 30px 0;
+}
+main .evento-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+main .evento-container iframe {
+  border: dotted white;
+  padding: 10px;
+  background: palevioletred;
+  border-radius: 10px;
+  width: 50%;
+}
+main .evento-container img {
+  border-radius: 10px;
+  border: dotted white;
+  padding: 10px;
+  background-color: palevioletred;
+}
+main .evento-container div h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: "Briem Hand";
+  margin-bottom: 30px;
+  color: rgb(240, 29, 99);
+  font-weight: 700;
+}
+main .evento-container div p {
+  font-size: 16px;
+  margin-top: 0;
+  font-family: "Briem Hand";
+  margin-bottom: 60px;
+  font-weight: 500;
+  color: brown;
+  align-items: center;
+}
+
+main section .card img {
+  width: 100%;
+  height: 250px;
+}
+main section .card div h3 {
+  font-size: 15px;
+}
+main section .card div p {
+  color: blue;
+  font-weight: 500;
+}
+
+@keyframes bolder {
+  0% {
+    font-weight: 700;
+    color: palevioletred;
+  }
+  25% {
+    font-weight: 400;
+    color: palevioletred;
+  }
+  50% {
+    font-weight: 700;
+    color: palevioletred;
+  }
+  75% {
+    font-weight: 400;
+    color: palevioletred;
+  }
+  100% {
+    font-weight: 700;
+    color: palevioletred;
+  }
+}
+main .carta-titulo {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+  font-family: "Cedarville Cursive", cursive;
+  margin-bottom: 40px;
+}
+main .ingreso-menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .ingreso-menu section {
+  flex-direction: column;
+}
+main .ingreso-menu section a {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Cedarville Cursive", cursive;
+  text-decoration: none;
+  animation-name: bolder;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+main .ingreso-menu section a img {
+  border-radius: 50px;
+  width: 150px;
+  height: 150px;
+}
+main .ingreso-menu section a img:hover {
+  border: 3px solid palevioletred;
+}
+main section .titulos-menues {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-family: "Cedarville Cursive", cursive;
+  text-decoration: underline;
+}
+main .menus-1 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .menus-1 section {
+  display: flex;
+  flex-direction: column;
+}
+main .menus-1 section p {
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: bolder;
+  color: black;
+}
+main .menus-1 section ul {
+  font-family: "Briem Hand", cursive;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+main .menus-1 section img {
+  border-radius: 10px;
+  width: 350px;
+}
+main section .carta-completa h4 {
+  margin-bottom: 10px;
+  font-family: "Briem Hand", cursive;
+  font-size: 18px;
+  font-weight: bold;
+}
+main section .carta-completa p {
+  font-size: 16px;
+  font-family: "Briem Hand", cursive;
+  color: black;
+}
+main .oso {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main .oso img {
+  border-radius: 5px;
+  width: 50%;
+}
+
 @media only screen and (max-width: 650px) {
-  header {
-    display: flex;
-    align-items: center;
-    background-color: rgb(219, 123, 123);
-    padding: 20px;
-  }
-  header h1 {
-    font-size: 20px;
-    font-style: italic;
-    color: rgba(231, 14, 61, 0.842);
-    font-family: "Briem Hand", cursive;
-  }
-  header img {
-    width: 100px;
-  }
-  header .link-enlaces a {
-    text-decoration: none;
-    color: white;
-    transition: 1s;
-    font-size: 25px;
-    font-family: "Briem Hand", cursive;
-  }
-  header .link-enlaces a:hover {
-    color: rgb(226, 51, 109);
-    margin-top: 20px;
-  }
   header {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -44,46 +358,20 @@ body {
   header h1 {
     display: none;
   }
-  header div ul {
+  header div div ul {
     list-style: none;
   }
-  header div ul a {
+  header div div ul a {
     text-decoration: none;
     color: white;
     font-size: 30px;
     font-family: "Briem Hand", cursive;
   }
-  header div ul a:hover {
+  header div div ul a:hover {
     color: rgb(226, 51, 109);
   }
   header .link-enlaces {
     display: none;
-  }
-  footer {
-    background-color: rgb(212, 150, 74);
-    display: flex;
-    font-family: "Briem Hand", cursive;
-  }
-  .redes {
-    text-align: center;
-  }
-  .redes h2 {
-    text-decoration: underline;
-  }
-  .redes a {
-    color: rgb(0, 0, 0);
-    font-weight: 700;
-    font-family: "Briem Hand", cursive;
-    text-decoration: none;
-  }
-  .redes a:hover {
-    color: rgb(233, 86, 135);
-  }
-  .redes h3 {
-    text-align: center;
-    margin: 15px;
-    text-decoration: wavy;
-    font-family: "Briem Hand", cursive;
   }
   footer {
     justify-content: center;
@@ -108,65 +396,9 @@ body {
     width: 50%;
     height: 100px;
   }
-  main .information {
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    flex-wrap: wrap;
-    align-content: center;
-    font-family: "Briem Hand", cursive;
-  }
-  main .information section h2 {
-    text-decoration: underline;
-    text-align: center;
-    margin-bottom: 30px;
-    color: black;
-  }
-  main .information section img {
-    border-radius: 10px 10px 0 0;
-  }
-  main .information section p {
-    text-align: justify;
-    background-color: beige;
-    padding: 20px;
-    border-radius: 0 0 10px 10px;
-  }
-  main .information section ul {
-    padding: 30px;
-    background-color: rgb(241, 219, 198);
-    list-style: none;
-    border-radius: 0 0 10px 10px;
-    text-align: center;
-    font-size: 16px;
-    font-family: "Briem Hand", cursive;
-    margin-bottom: 30px;
-  }
-  main .dire-att {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  main .dire-att .dire-att-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-  }
-  main .dire-att .dire-att-text .direccion {
-    margin-bottom: 20px;
-    font-family: "Briem Hand", cursive;
-  }
-  main .dire-att .dire-att-text .direccion h3 {
-    font-weight: bolder;
-    text-decoration: underline;
-    font-family: "Briem Hand", cursive;
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
   main .img-container img {
     width: 100%;
+    object-fit: cover;
   }
   main .information {
     flex-direction: column;
@@ -182,15 +414,17 @@ body {
   main .information section h2 {
     margin: 20px 0;
   }
-  main .information section ul {
-    width: 75%;
-    padding: 30px 5px;
-  }
   main .information section p {
     width: 75%;
+    transform: translateY(-20px);
   }
   main .information section img {
     width: 75%;
+  }
+  main .information .section-3 ul {
+    width: 75%;
+    padding: 30px 5px;
+    transform: translateY(-20px);
   }
   main .dire-att {
     flex-wrap: wrap;
@@ -201,284 +435,25 @@ body {
     margin-bottom: 30px;
   }
   main .info-Map .map {
-    width: 300px;
-  }
-  main .contacto-titulo {
-    display: flex;
-    justify-content: center;
-    font-family: "Briem Hand", cursive;
-    font-size: 40px;
-    margin: 30px 0;
-  }
-  main .complete {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-  }
-  main .complete .contact form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    font-family: "Briem Hand", cursive;
-    font-size: 18px;
-  }
-  main .comentarios {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    font-family: "Briem Hand", cursive;
-  }
-  main .comentarios textarea {
-    width: 150px;
-    height: 150px;
-  }
-  main .comentarios input {
-    border-radius: 10px;
-    margin-top: 20px;
-    background-color: rgb(216, 153, 174);
-    border: solid 2px brown;
-    color: brown;
-    padding: 10px 50px;
-    margin-bottom: 30px;
-  }
-  main .comentarios input:hover {
-    background-color: palevioletred;
-    color: white;
-  }
-  main .Reserva-canal {
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    align-items: center;
-    margin-bottom: 30px;
-    font-family: "Briem Hand", cursive;
-    text-decoration: underline;
-  }
-  main div .reserva-titulo {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font-family: "Briem Hand", cursive;
-  }
-  main div .reserva-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  }
-  main div .reserva-item a {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
-  }
-  main div .reserva-item img {
     width: 100%;
   }
   main .complete {
     flex-wrap: wrap;
   }
   main .Reserva-canal {
-    flex-wrap: wrap;
-  }
-  main .evento-tit {
-    display: flex;
-    justify-content: center;
-    font-family: "Briem Hand", cursive;
-    font-size: 40PX;
-    text-decoration: underline;
-    color: rgb(236, 57, 117);
-    margin: 30px 0;
-  }
-  main .evento-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     flex-wrap: wrap;
   }
   main .evento-container iframe {
-    border: dotted white;
-    padding: 10px;
-    background: palevioletred;
-    border-radius: 10px;
-    width: 50%;
-  }
-  main .evento-container h3 {
-    font-family: "Briem Hand", cursive;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 30px;
-    color: rgb(240, 29, 99);
-    font-weight: 700;
-  }
-  main .evento-container img {
-    border-radius: 10px;
-    border: dotted white;
-    padding: 10px;
-    background-color: palevioletred;
-    width: 50%;
-  }
-  main .evento-container p {
-    margin-bottom: 60px;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Briem Hand", cursive;
-    color: brown;
-    align-items: center;
-  }
-  .evento-container iframe {
-    width: 70%;
-  }
-  main .carousel-inner h2 {
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    padding: 15px 10px;
-    margin: 0 50px 40px;
-    font-family: "Jacquard 12", system-ui;
-    font-size: 40px;
-    color: brown;
-  }
-  main .carousel-inner img {
     width: 100%;
-    height: 350px;
-    padding: 20px 50px;
-    margin-top: 30px;
-    border-radius: 5px;
-  }
-  main .mangas-otros {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-  main .mangas-otros .card {
-    width: 12rem;
-  }
-  main .mangas-otros .card img {
-    width: 100%;
-    height: 250px;
-  }
-  main .mangas-otros .card div h3 {
-    font-size: 15px;
-  }
-  main .mangas-otros .card div p {
-    color: blue;
-    font-weight: 500;
   }
   main .carousel-inner img {
     height: 250px;
-  }
-  main .d-flex {
-    flex-wrap: wrap;
-  }
-  main .carta-titulo {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 40px;
-    font-family: "Cedarville Cursive", cursive;
-    margin-bottom: 40px;
-  }
-  main .ingreso-menu {
-    display: flex;
-    gap: 50px;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  main .ingreso-menu img {
-    border-radius: 50px;
-    width: 150px;
-    height: 150px;
-  }
-  main .ingreso-menu img:hover {
-    border: 3px solid palevioletred;
-  }
-  main .ingreso-menu p {
-    text-align: center;
-    font-size: 30px;
-    font-family: "Cedarville Cursive", cursive;
-    border-bottom: solid 2px black;
   }
   main .menus-1 {
     display: flex;
-    justify-content: center;
-    gap: 100px;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  main .menus-1 p {
-    justify-content: center;
-    text-align: center;
-    font-size: 25px;
-    font-family: "Cedarville Cursive", cursive;
-    font-weight: bolder;
-  }
-  main .menus-1 ul {
-    font-family: "Briem Hand", cursive;
-    display: flex;
     flex-direction: column;
-    text-align: center;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    margin-top: 10px;
   }
   main .menus-1 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-  }
-  main .menus-1 section img {
-    border-radius: 10px;
-    width: 350px;
-  }
-  main .titulos-menues {
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    font-family: "Cedarville Cursive", cursive;
-    text-decoration: underline;
-  }
-  main .carta-completa h4 {
-    margin-bottom: 10px;
-    font-family: "Briem Hand", cursive;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  main .carta-completa p {
-    font-size: 16px;
-    font-family: "Briem Hand", cursive;
-  }
-  main .oso {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  main .oso img {
-    border-radius: 5px;
-    width: 50%;
-  }
-  main .Menus {
-    display: flex;
-    flex-direction: column;
-  }
-  main .Menus section {
     display: flex;
     flex-direction: column;
   }
@@ -507,58 +482,6 @@ body {
   header .navbar {
     display: none;
   }
-  header {
-    display: flex;
-    align-items: center;
-    background-color: rgb(219, 123, 123);
-    padding: 20px;
-  }
-  header h1 {
-    font-size: 20px;
-    font-style: italic;
-    color: rgba(231, 14, 61, 0.842);
-    font-family: "Briem Hand", cursive;
-  }
-  header img {
-    width: 100px;
-  }
-  header .link-enlaces a {
-    text-decoration: none;
-    color: white;
-    transition: 1s;
-    font-size: 25px;
-    font-family: "Briem Hand", cursive;
-  }
-  header .link-enlaces a:hover {
-    color: rgb(226, 51, 109);
-    margin-top: 20px;
-  }
-  footer {
-    background-color: rgb(212, 150, 74);
-    display: flex;
-    font-family: "Briem Hand", cursive;
-  }
-  .redes {
-    text-align: center;
-  }
-  .redes h2 {
-    text-decoration: underline;
-  }
-  .redes a {
-    color: rgb(0, 0, 0);
-    font-weight: 700;
-    font-family: "Briem Hand", cursive;
-    text-decoration: none;
-  }
-  .redes a:hover {
-    color: rgb(233, 86, 135);
-  }
-  .redes h3 {
-    text-align: center;
-    margin: 15px;
-    text-decoration: wavy;
-    font-family: "Briem Hand", cursive;
-  }
   footer {
     justify-content: space-around;
     padding: 20px;
@@ -574,63 +497,6 @@ body {
   footer .copyr img {
     width: 100px;
   }
-  main .information {
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    flex-wrap: wrap;
-    align-content: center;
-    font-family: "Briem Hand", cursive;
-  }
-  main .information section h2 {
-    text-decoration: underline;
-    text-align: center;
-    margin-bottom: 30px;
-    color: black;
-  }
-  main .information section img {
-    border-radius: 10px 10px 0 0;
-  }
-  main .information section p {
-    text-align: justify;
-    background-color: beige;
-    padding: 20px;
-    border-radius: 0 0 10px 10px;
-  }
-  main .information section ul {
-    padding: 30px;
-    background-color: rgb(241, 219, 198);
-    list-style: none;
-    border-radius: 0 0 10px 10px;
-    text-align: center;
-    font-size: 16px;
-    font-family: "Briem Hand", cursive;
-    margin-bottom: 30px;
-  }
-  main .dire-att {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  main .dire-att .dire-att-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-  }
-  main .dire-att .dire-att-text .direccion {
-    margin-bottom: 20px;
-    font-family: "Briem Hand", cursive;
-  }
-  main .dire-att .dire-att-text .direccion h3 {
-    font-weight: bolder;
-    text-decoration: underline;
-    font-family: "Briem Hand", cursive;
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
   main .img-container img {
     width: 100%;
     height: 500px;
@@ -638,19 +504,29 @@ body {
   }
   main .information {
     margin-top: 60px;
-    justify-content: center;
-    gap: 150px;
+    justify-content: space-around;
+    align-content: center;
     align-content: center;
   }
-  main .information h2 {
+  main .information section {
+    flex-direction: column;
+  }
+  main .information section h2 {
     width: 400px;
   }
-  main .information img {
-    width: 400px;
-    height: 300px;
+  main .information section img {
+    width: 450px;
+    height: 350px;
   }
-  main .information p {
-    width: 400px;
+  main .information section p {
+    width: 450px;
+    transform: translateY(-20px);
+  }
+  main .information .section-3 {
+    transform: translateY(5px);
+  }
+  main .information .section-3 ul {
+    transform: translateY(-20px);
   }
   main .dire-att {
     margin-top: 60px;
@@ -659,180 +535,22 @@ body {
     flex-wrap: wrap;
   }
   main .dire-att div iframe {
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
   }
-  main .contacto-titulo {
-    display: flex;
-    justify-content: center;
-    font-family: "Briem Hand", cursive;
-    font-size: 40px;
-    margin: 30px 0;
-  }
-  main .complete {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-  }
-  main .complete .contact form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    font-family: "Briem Hand", cursive;
-    font-size: 18px;
-  }
-  main .comentarios {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    font-family: "Briem Hand", cursive;
-  }
-  main .comentarios textarea {
-    width: 150px;
-    height: 150px;
-  }
-  main .comentarios input {
-    border-radius: 10px;
+  main .reserva-item p {
     margin-top: 20px;
-    background-color: rgb(216, 153, 174);
-    border: solid 2px brown;
-    color: brown;
-    padding: 10px 50px;
-    margin-bottom: 30px;
-  }
-  main .comentarios input:hover {
-    background-color: palevioletred;
-    color: white;
-  }
-  main .Reserva-canal {
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    align-items: center;
-    margin-bottom: 30px;
-    font-family: "Briem Hand", cursive;
-    text-decoration: underline;
-  }
-  main div .reserva-titulo {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font-family: "Briem Hand", cursive;
-  }
-  main div .reserva-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  }
-  main div .reserva-item a {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
-  }
-  main div .reserva-item img {
-    width: 100%;
-  }
-  main .evento-tit {
-    display: flex;
-    justify-content: center;
-    font-family: "Briem Hand", cursive;
-    font-size: 40PX;
-    text-decoration: underline;
-    color: rgb(236, 57, 117);
-    margin: 30px 0;
-  }
-  main .evento-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-  }
-  main .evento-container iframe {
-    border: dotted white;
-    padding: 10px;
-    background: palevioletred;
-    border-radius: 10px;
-    width: 50%;
-  }
-  main .evento-container h3 {
-    font-family: "Briem Hand", cursive;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 30px;
-    color: rgb(240, 29, 99);
-    font-weight: 700;
-  }
-  main .evento-container img {
-    border-radius: 10px;
-    border: dotted white;
-    padding: 10px;
-    background-color: palevioletred;
-    width: 50%;
-  }
-  main .evento-container p {
-    margin-bottom: 60px;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Briem Hand", cursive;
-    color: brown;
-    align-items: center;
   }
   .evento-container iframe {
-    width: 500px;
+    width: 400px;
     height: 300px;
   }
   .evento-container img {
-    width: 40%;
+    width: 50%;
+    height: 400px;
   }
-  .evento-container p {
-    width: 500px;
-  }
-  main .carousel-inner h2 {
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    padding: 15px 10px;
-    margin: 0 50px 40px;
-    font-family: "Jacquard 12", system-ui;
-    font-size: 40px;
-    color: brown;
-  }
-  main .carousel-inner img {
-    width: 100%;
-    height: 350px;
-    padding: 20px 50px;
-    margin-top: 30px;
-    border-radius: 5px;
-  }
-  main .mangas-otros {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-  main .mangas-otros .card {
-    width: 12rem;
-  }
-  main .mangas-otros .card img {
-    width: 100%;
-    height: 250px;
-  }
-  main .mangas-otros .card div h3 {
-    font-size: 15px;
-  }
-  main .mangas-otros .card div p {
-    color: blue;
-    font-weight: 500;
+  .evento-container div p {
+    width: 600px;
   }
   main .carousel-inner h2 {
     padding: 15px 10px;
@@ -843,106 +561,15 @@ body {
     padding: 20px 50px;
     margin-top: 30px;
     border-radius: 5px;
-  }
-  main .carta-titulo {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 40px;
-    font-family: "Cedarville Cursive", cursive;
-    margin-bottom: 40px;
   }
   main .ingreso-menu {
-    display: flex;
-    gap: 50px;
+    gap: 100px;
     margin-top: 30px;
     margin-bottom: 60px;
     justify-content: center;
-    flex-wrap: wrap;
-  }
-  main .ingreso-menu img {
-    border-radius: 50px;
-    width: 150px;
-    height: 150px;
-  }
-  main .ingreso-menu img:hover {
-    border: 3px solid palevioletred;
-  }
-  main .ingreso-menu p {
-    text-align: center;
-    font-size: 30px;
-    font-family: "Cedarville Cursive", cursive;
-    border-bottom: solid 2px black;
   }
   main .menus-1 {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  main .menus-1 p {
-    justify-content: center;
-    text-align: center;
-    font-size: 25px;
-    font-family: "Cedarville Cursive", cursive;
-    font-weight: bolder;
-  }
-  main .menus-1 ul {
-    font-family: "Briem Hand", cursive;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    margin-top: 10px;
-  }
-  main .menus-1 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-  }
-  main .menus-1 section img {
-    border-radius: 10px;
-    width: 350px;
-  }
-  main .titulos-menues {
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    font-family: "Cedarville Cursive", cursive;
-    text-decoration: underline;
-  }
-  main .carta-completa h4 {
-    margin-bottom: 10px;
-    font-family: "Briem Hand", cursive;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  main .carta-completa p {
-    font-size: 16px;
-    font-family: "Briem Hand", cursive;
-  }
-  main .oso {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  main .oso img {
-    border-radius: 5px;
-    width: 50%;
-  }
-  main .ingreso-menu {
-    margin-bottom: 60px;
-  }
-  main .Menus section img {
-    width: 50%;
+    gap: 120px;
   }
   main .carta-completa {
     display: grid;
@@ -958,6 +585,139 @@ body {
   main .oso img {
     width: 30%;
   }
+}
+@keyframes color {
+  0% {
+    background: linear-gradient(rgb(234, 124, 162), rgba(240, 19, 126, 0.925));
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  25% {
+    background: linear-gradient(rgb(236, 111, 111), rgba(240, 19, 126, 0.925));
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  50% {
+    background: linear-gradient(red, rgba(240, 19, 126, 0.925));
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  100% {
+    background: linear-gradient(rgba(240, 19, 126, 0.925), rgb(240, 180, 180));
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
+@keyframes crecimiento {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(219, 123, 123);
+  padding: 20px;
+}
+header div a img {
+  width: 100px;
+  height: 100px;
+}
+header div a img:hover {
+  animation-name: crecimiento;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+header h1 {
+  font-size: 20px;
+  font-style: italic;
+  color: rgba(231, 14, 61, 0.842);
+  font-family: "Briem Hand", cursive;
+  animation-name: color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+header .link-enlaces a {
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+  font-size: 25px;
+  font-family: "Briem Hand", cursive;
+}
+header .link-enlaces a:hover {
+  color: rgb(226, 51, 109);
+  margin-top: 20px;
+}
+
+footer {
+  background-color: rgb(212, 150, 74);
+  display: flex;
+  font-family: "Briem Hand", cursive;
+}
+footer .redes {
+  text-align: center;
+}
+footer .redes h2 {
+  text-align: center;
+  text-decoration: wavy;
+  color: black;
+  font-size: 30px;
+}
+footer .redes a {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-family: "Briem Hand", cursive;
+  text-decoration: none;
+}
+footer .redes a:hover {
+  color: rgb(233, 86, 135);
+}
+footer .redes-2 h3 {
+  text-align: center;
+  text-decoration: wavy;
+  font-size: 30px;
+}
+footer .copyr img {
+  width: 100px;
+  height: 100px;
+}
+
+.mangas-otros, main section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.carta, main section .card {
+  width: 12rem;
+}
+
+.carousel-inner h2 {
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding: 15px 10px;
+  margin: 0 50px 40px;
+  font-family: "Jacquard 12", system-ui;
+  font-size: 40px;
+  color: brown;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 350px;
+  padding: 20px 50px;
+  margin-top: 30px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

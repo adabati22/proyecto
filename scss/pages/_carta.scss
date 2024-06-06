@@ -1,3 +1,25 @@
+@keyframes bolder {
+    0%{
+        font-weight: 700;
+        color: palevioletred;
+    }
+    25%{
+       font-weight: 400; 
+       color: palevioletred;
+    }
+    50%{
+        font-weight: 700;
+        color: palevioletred;
+    }
+    75%{
+        font-weight: 400;
+        color: palevioletred;
+    }
+    100% {
+       font-weight: 700;
+       color: palevioletred;
+    }
+}
 main{
     .carta-titulo {
         text-align: center;
@@ -8,44 +30,65 @@ main{
     }
     .ingreso-menu{
         display: flex;
-        gap: 50px;
-        margin-top: 30px;
-        margin-bottom: 60px;
+        gap: 20px;
         justify-content: center;
         flex-wrap: wrap;
-        
-        img{
-            border-radius: 50px;
-            width: 150px;
-            height: 150px;
-            &:hover{
-            border:  3px solid palevioletred;
-           }
+        section{
+            flex-direction: column;
+            
+            a{
+                text-align: center;
+                font-size: 35px;
+                font-family: "Cedarville Cursive", cursive;
+                text-decoration: none;
+
+                animation-name: bolder;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+
+                img{
+                    border-radius: 50px;
+                    width: 150px;
+                    height: 150px;
+                    &:hover{
+                        border:  3px solid palevioletred;
+                    }
+                }
+            
+            
+            }
         }
-        p{
-            text-align: center;
-            font-size: 30px;
-            font-family: "Cedarville Cursive", cursive;
-            border-bottom: solid 2px black;
-        }
-        
+           
     }
-    
-    .menus-1{
-       display: flex;
-       justify-content: center;
-       gap: 100px;
-       align-items: center;
-       flex-wrap: wrap;
-        p{
-            justify-content: center;
+    section{
+        .titulos-menues{
             text-align: center;
-            font-size: 25px;
+            font-size: 40px;
+            margin-bottom: 50px;
+            margin-top: 50px;
             font-family: "Cedarville Cursive", cursive;
-            font-weight: bolder;
-        
+            text-decoration: underline;
         }
-        ul{
+    }
+    .menus-1{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+        flex-wrap: wrap;
+        section{
+            display: flex;
+            flex-direction: column;
+             p{
+                justify-content: center;
+                text-align: center;
+                font-size: 25px;
+                font-family: "Cedarville Cursive", cursive;
+                font-weight: bolder;
+                 color: black;
+                
+            }
+            ul{
                 font-family: "Briem Hand", cursive;
                 display: flex;
                 flex-direction: column;
@@ -55,50 +98,34 @@ main{
                 align-items: center;
                 font-size: 16px;
                 margin-top: 10px;
-               
-       
-        }
-        section{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            align-content: center;
-            flex-wrap: wrap;
+            }
             img{
-                border-radius: 10px;
+                 border-radius: 10px;
                 width: 350px;
             }
-        
-           
         }
-    
-    
+             
     }
     
-    .titulos-menues{
-        text-align: center;
-        font-size: 35px;
-        margin-bottom: 50px;
-        margin-top: 50px;
-        font-family: "Cedarville Cursive", cursive;
-        text-decoration: underline;
+    section{
+        .carta-completa{
+       
+            h4{
+                margin-bottom: 10px;
+                font-family:"Briem Hand", cursive;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            p{
+                font-size: 16px;
+                font-family:"Briem Hand", cursive ;
+                color: black;
+            }
+
+        }  
     }
  
-    .carta-completa{
-       
-        h4{
-            margin-bottom: 10px;
-            font-family:"Briem Hand", cursive;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        p{
-            font-size: 16px;
-            font-family:"Briem Hand", cursive ;
-        }
-
-    }
+    
     .oso {
         display: flex;
         justify-content: center;

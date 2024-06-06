@@ -1,8 +1,22 @@
-main {
-    //carrusel
-    @import "../components/carrousel";
-
-    //cards
-    @import "../components/cards";
-
+//EXTENDS
+main{
+    section{
+        @extend .mangas-otros;
+        .card{
+            @extend .carta;
+            img{
+                width: 100%;
+                height: 250px;
+            } 
+            div{
+                h3{
+                    font-size: 15px;
+                }
+                p{
+                    color: blue;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
 }

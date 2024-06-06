@@ -1,3 +1,9 @@
+//MIXIN
+@mixin letras ($font-size,$margin-top,$font-family){
+    font-size: $font-size;
+    margin-top: $margin-top;
+    font-family: $font-family;
+}
 main {
     .evento-tit{
         display: flex;
@@ -22,33 +28,31 @@ main {
             border-radius: 10px;
             width: 50%;
         }    
-        h3{
-                font-family:"Briem Hand", cursive;
-                margin-top: 20px;
+        img{
+            border-radius: 10px;
+            border: dotted white;
+            padding: 10px;
+            background-color: palevioletred;
+            
+        }
+        div{
+            h3{
+                @include letras(30px,20px,"Briem Hand");
                 margin-bottom: 30px;
-                font-size: 30px;
                 color: rgb(240, 29, 99);
                 font-weight: 700;
-        } 
-        img{
-                border-radius: 10px;
-                border: dotted white;
-                padding: 10px;
-                background-color: palevioletred;
-                width: 50%;
-        }
-        p{
+            } 
+       
+            p{
+                @include letras(16px, 0, "Briem Hand");
                 margin-bottom: 60px;
-                font-size: 16px;
                 font-weight: 500;
-                font-family: "Briem Hand", cursive;
                 color: brown;
-               
                 align-items: center;
-
-                
-        
+            
+            }  
         }
+        
         
     
     }

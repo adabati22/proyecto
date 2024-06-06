@@ -1,14 +1,18 @@
+//variable
+$color-nekopunch:rgb(233, 86, 135);
+$color-footer: rgb(212, 150, 74);
+
 footer{
-    background-color: rgb(212, 150, 74);
+    background-color:$color-footer;
     display: flex;
     font-family: "Briem Hand", cursive;
-   
-    }
     .redes {
         text-align: center;
         h2{
-            text-decoration: underline; 
-            
+            text-align: center;
+            text-decoration: wavy;
+            color: black;
+            font-size: 30px;
         }
         a{ 
             color: rgb(0, 0, 0);
@@ -16,20 +20,23 @@ footer{
             font-family: "Briem Hand", cursive;
             text-decoration: none;
             &:hover{
-                color: rgb(233, 86, 135);
+                color: $color-nekopunch;
             }
             
         }
     }
-       
-    
-    .redes {
+    .redes-2{
         h3{
             text-align: center;
-            margin: 15px;
             text-decoration: wavy;
-            font-family: "Briem Hand", cursive;
+            font-size: 30px;
         }
     }
-    
-    
+    .copyr{
+        img {
+            width: 100px;
+            height: 100px;
+        } 
+        
+    }
+}  
