@@ -2,6 +2,17 @@ $color-nekopunch:rgb(233, 86, 135);
 //EXTENDS
 
 main{
+    .aviso{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(206, 37, 93);
+        padding: 20px;
+        p{
+            color: white;
+            font-family: "Briem Hand", cursive;
+            font-size: 20px;
+        }
+    }
     section{
         @extend .mangas-otros;
         .card{
