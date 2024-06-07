@@ -119,15 +119,8 @@ main .complete .comentarios textarea {
 main .complete .comentarios input {
   border-radius: 10px;
   margin-top: 20px;
-  background-color: rgb(216, 153, 174);
-  border: solid 2px brown;
-  color: brown;
   padding: 10px 50px;
   margin-bottom: 30px;
-}
-main .complete .comentarios input:hover {
-  background-color: rgb(233, 86, 135);
-  color: white;
 }
 main div .reserva-titulo {
   display: flex;
@@ -225,12 +218,12 @@ main section .card img {
 }
 main section .card div h3 {
   font-size: 15px;
+  color: rgb(231, 27, 231);
 }
 main section .card div p {
-  color: blue;
-  font-weight: 500;
+  color: rgb(233, 86, 135);
+  font-weight: bolder;
 }
-
 @keyframes bolder {
   0% {
     font-weight: 700;
@@ -330,7 +323,7 @@ main .menus-1 section img {
 }
 main section .carta-completa h4 {
   margin-bottom: 10px;
-  font-family: "Briem Hand", cursive;
+  font-family: "Cedarville Cursive", cursive;
   font-size: 18px;
   font-weight: bold;
 }
@@ -446,6 +439,9 @@ main .oso img {
   main .evento-container iframe {
     width: 100%;
   }
+  main .evento-container img {
+    width: 100%;
+  }
   main .carousel-inner img {
     height: 250px;
   }
@@ -462,6 +458,15 @@ main .oso img {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  main .carta-completa h4 {
+    margin-bottom: 10px;
+    font-family: "Briem Hand", cursive;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  main .carta-completa p {
+    font-family: "Briem Hand", cursive;
   }
 }
 @media only screen and (min-width: 650px) {
@@ -547,7 +552,7 @@ main .oso img {
   }
   .evento-container img {
     width: 50%;
-    height: 400px;
+    height: 500px;
   }
   .evento-container div p {
     width: 600px;
@@ -687,6 +692,9 @@ footer .copyr img {
   width: 100px;
   height: 100px;
 }
+footer .copyr p {
+  font-size: 10px;
+}
 
 .mangas-otros, main section {
   display: flex;
@@ -718,6 +726,17 @@ footer .copyr img {
   padding: 20px 50px;
   margin-top: 30px;
   border-radius: 5px;
+}
+
+.boton, main .complete .comentarios input, main section .card div a {
+  border-radius: 10px;
+  background-color: rgb(216, 153, 174);
+  border: solid 2px brown;
+  color: brown;
+}
+.boton:hover, main .complete .comentarios input:hover, main section .card div a:hover {
+  background-color: rgb(233, 86, 135);
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

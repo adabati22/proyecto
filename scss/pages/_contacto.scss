@@ -56,15 +56,10 @@ main{
             input{
                 border-radius: 10px;
                 margin-top: 20px;
-                background-color: rgb(216, 153, 174);
-                border: solid 2px brown;
-                color: brown;
                 padding: 10px 50px;
                 margin-bottom: 30px;
-                &:hover{
-                    background-color: $color-nekopunch;
-                    color: white;
-                 }    
+                @extend .boton;
+                  
             }
         }
     }

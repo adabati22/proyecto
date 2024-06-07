@@ -1,0 +1,11 @@
+$color-nekopunch:rgb(233, 86, 135);
+.boton{
+                border-radius: 10px;
+                background-color: rgb(216, 153, 174);
+                border: solid 2px brown;
+                color: brown;
+                &:hover{
+                    background-color: $color-nekopunch;
+                    color: white;
+                 } 
+}
