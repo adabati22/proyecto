@@ -676,7 +676,7 @@ header h1 {
   color: rgba(231, 14, 61, 0.842);
   font-family: "Briem Hand", cursive;
   animation-name: color;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 header .link-enlaces a {
