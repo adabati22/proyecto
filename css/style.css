@@ -85,7 +85,7 @@ main .contacto-titulo {
   justify-content: center;
   font-family: "Briem Hand", cursive;
   font-size: 40px;
-  margin: 30px 0;
+  margin: 30px 0 60px 0;
 }
 main .complete {
   display: flex;
