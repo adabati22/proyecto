@@ -1,12 +1,7 @@
 //ANIMACIONES
 @keyframes color {
     0%{
-        background: linear-gradient(rgb(234, 124, 162),rgba(240, 19, 126, 0.925));
-        -webkit-background-clip: text;
-        color: transparent;
-    }
-    25%{
-        background: linear-gradient(rgb(236, 111, 111),rgba(240, 19, 126, 0.925));
+        background: linear-gradient(rgb(247, 229, 235),rgba(240, 19, 126, 0.925));
         -webkit-background-clip: text;
         color: transparent;
     }
@@ -16,7 +11,7 @@
         color: transparent;
     }
     100% {
-        background: linear-gradient(rgba(240, 19, 126, 0.925),rgb(240, 180, 180));
+        background: linear-gradient(rgba(240, 19, 126, 0.925),rgb(247, 229, 235));
         -webkit-background-clip: text;
         color: transparent;
     }

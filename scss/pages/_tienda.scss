@@ -1,16 +1,40 @@
 $color-nekopunch:rgb(233, 86, 135);
 //EXTENDS
-
+@keyframes oferta {
+0%{
+    color: white;
+    font-weight: bolder;
+}
+    25%{
+color: rgb(219, 123, 123);
+}
+50%{
+color: white;
+font-weight: bolder;
+}
+75%{
+color: rgb(219, 123, 123);
+}
+100%{
+    color: white;
+    font-weight: bolder;
+}
+}
 main{
     .aviso{
         display: flex;
         justify-content: center;
         background-color: rgb(206, 37, 93);
         padding: 20px;
+        text-align: center;
         p{
             color: white;
             font-family: "Briem Hand", cursive;
             font-size: 20px;
+
+            animation-name: oferta;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
         }
     }
     section{
