@@ -111,6 +111,7 @@ main .complete .comentarios {
   align-items: center;
   gap: 10px;
   font-family: "Briem Hand", cursive;
+  transform: translateY(-20px);
 }
 main .complete .comentarios textarea {
   width: 150px;
