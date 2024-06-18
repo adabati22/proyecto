@@ -387,16 +387,16 @@ main .oso img {
   header h1 {
     display: none;
   }
-  header div div ul {
+  header nav div ul {
     list-style: none;
   }
-  header div div ul a {
+  header nav div ul a {
     text-decoration: none;
     color: white;
     font-size: 30px;
     font-family: "Briem Hand", cursive;
   }
-  header div div ul a:hover {
+  header nav div ul a:hover {
     color: rgb(226, 51, 109);
   }
   header .link-enlaces {
