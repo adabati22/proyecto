@@ -11,16 +11,20 @@
           nav {
             div{
                 ul {
+                   
                     list-style: none;
-                    a{
-                        text-decoration: none;
-                        color: white;
-                        font-size: 30px;
-                        font-family: "Briem Hand", cursive;
-                        &:hover{
-                            color: rgb(226, 51, 109);
-                        }
-                    }  
+                    text-align: left;
+                    li {
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            font-size: 25px;
+                            font-family: "Briem Hand", cursive;
+                            &:hover{
+                                color: rgb(226, 51, 109);
+                            }
+                        }  
+                    }
                 } 
             }
             

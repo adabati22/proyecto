@@ -389,14 +389,15 @@ main .oso img {
   }
   header nav div ul {
     list-style: none;
+    text-align: left;
   }
-  header nav div ul a {
+  header nav div ul li a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Briem Hand", cursive;
   }
-  header nav div ul a:hover {
+  header nav div ul li a:hover {
     color: rgb(226, 51, 109);
   }
   header .link-enlaces {
