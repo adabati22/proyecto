@@ -1,4 +1,4 @@
-@use "../components/variables";
+
 //EXTENDS
 @keyframes oferta {
 0%{
@@ -51,7 +51,7 @@ main{
                     color: rgb(231, 27, 231);
                 }
                 p{
-                    color: variables.$color-nekopunch;
+                    color: $color-nekopunch;
                     font-weight: bolder;
                 }
                 a{

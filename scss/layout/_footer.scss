@@ -1,6 +1,6 @@
-@use "../components/variables" ;
+
 footer{
-    background-color:variables.$color-footer;
+    background-color:$color-footer;
     display: flex;
     font-family: "Briem Hand", cursive;
     .redes {
@@ -17,7 +17,7 @@ footer{
             font-family: "Briem Hand", cursive;
             text-decoration: none;
             &:hover{
-                color: variables.$color-nekopunch;
+                color: $color-nekopunch;
             }
             
         }
