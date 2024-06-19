@@ -226,7 +226,7 @@ main .evento-container div p {
     font-weight: bolder;
   }
   75% {
-    color: rgb(219, 123, 123);
+    color: rgba(204, 176, 150, 0.959);
   }
   100% {
     color: white;

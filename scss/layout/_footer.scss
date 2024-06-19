@@ -1,9 +1,6 @@
-//variable
-$color-nekopunch:rgb(233, 86, 135);
-$color-footer: rgb(212, 150, 74);
-
+@use "../components/variables" ;
 footer{
-    background-color:$color-footer;
+    background-color:variables.$color-footer;
     display: flex;
     font-family: "Briem Hand", cursive;
     .redes {
@@ -20,7 +17,7 @@ footer{
             font-family: "Briem Hand", cursive;
             text-decoration: none;
             &:hover{
-                color: $color-nekopunch;
+                color: variables.$color-nekopunch;
             }
             
         }

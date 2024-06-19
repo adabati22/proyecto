@@ -1,4 +1,4 @@
-$color-nekopunch:rgb(233, 86, 135);
+@use "../components/variables";
 //EXTENDS
 @keyframes oferta {
 0%{
@@ -13,7 +13,7 @@ color: white;
 font-weight: bolder;
 }
 75%{
-color: rgb(219, 123, 123);
+color:  rgba(204, 176, 150, 0.959);
 }
 100%{
     color: white;
@@ -51,7 +51,7 @@ main{
                     color: rgb(231, 27, 231);
                 }
                 p{
-                    color: $color-nekopunch;
+                    color: variables.$color-nekopunch;
                     font-weight: bolder;
                 }
                 a{
